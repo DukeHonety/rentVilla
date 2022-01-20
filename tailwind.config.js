@@ -2,10 +2,10 @@ module.exports = {
   content: ["./src/**/*.{html,js,tsx,ts}"],
   theme: {
     extend: {},
-    color:{
-      menubar:{
-        100: #27ae60,
-      }
+    colors: {
+      'menubar': {
+        100: '#27ae60 !important',
+      },
     }
   },
   plugins: [],

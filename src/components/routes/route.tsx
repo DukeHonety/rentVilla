@@ -19,17 +19,20 @@ let homeUrls: linkUrl[] = [
 let listUrls: linkUrl[] = [
     {
         title : "Listing Grid",
-        url : "/home",
+        url : "/List",
     },
     {
         title : "Listing List",
-        url : "/home/home2",
+        url : "/home/List2",
     },
     {
         title : "Listing Map",
-        url : "/home/home3",
+        url : "/home/List3",
     },
 ];
 export function getHomes() {
 return homeUrls;
+}
+export function getLists() {
+    return listUrls;
 }
